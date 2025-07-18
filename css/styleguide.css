@@ -1,0 +1,68 @@
+/* Style Guide - Design tokens from Figma */
+:root {
+  /* Colors from Figma Design */
+  --light-blue: rgba(232, 245, 243, 1);
+  --grey: rgba(133, 133, 133, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark: rgba(30, 35, 44, 1);
+  --blue-style: rgba(11, 143, 172, 1);
+  --rich-black: rgba(0, 4, 8, 1);
+  --moonstone-blue: rgba(104, 177, 200, 1);
+  
+  /* Legacy color variables for compatibility */
+  --primary-color: var(--rich-black);
+  --secondary-color: var(--white);
+  --accent-color: var(--moonstone-blue);
+  --text-color: var(--dark);
+  --bg-color: var(--white);
+  
+  /* Typography - Fonts from Figma */
+  --font-primary: "Manrope-Bold", Helvetica, sans-serif;
+  --font-secondary: "Manrope-Regular", Helvetica, sans-serif;
+  
+  /* Font Sizes from Figma Design */
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+  --font-size-hero: 72px;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+  
+  /* Breakpoints */
+  --mobile-max: 767px;
+  --tablet-min: 768px;
+  --tablet-max: 1023px;
+  --desktop-min: 1024px;
+}
+
+/* Typography Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+/* Font Families */
+.font-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+.font-regular {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
